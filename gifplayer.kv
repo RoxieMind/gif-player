@@ -1,8 +1,13 @@
 #:kivy 1.0.9
 
 <GifMenu>:
-    Label:
-        text: "Hello Slut!"
-        font_size: 70
-        center_x: root.width / 2
-        center_y: root.height / 2
+    BoxLayout:
+        orientation:'vertical'
+        width: root.width
+        height: root.height
+
+        Button:
+            text: "Choose Folder"
+        
+        Button:
+            text: "Launch"
